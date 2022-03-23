@@ -1,6 +1,5 @@
 """Basic math operations."""
 
-
 def add(a, b):
     """Add a and b."""
 
@@ -23,3 +22,10 @@ def div(a, b):
     """Divide a by b."""
 
     return a / b
+
+OPERATIONS = {
+    "add" : add,
+    "subtract" : sub,
+    "multiply" :mult,
+    "divide": div
+}
